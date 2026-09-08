@@ -1,0 +1,398 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Tommy's Solutions — hardware, tools and consumables in Pretoria, South Africa. Browse our catalogue and enquire on WhatsApp.">
+<title>Tommy's Solutions | Hardware • Tools • Consumables</title>
+<style>
+:root{--red:#e21b23;--red2:#ff3840;--ink:#070808;--panel:#121516;--panel2:#191d1e;--line:#303536;--text:#f5f5f2;--muted:#a8adae}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--ink);color:var(--text);font-family:Inter,Arial,Helvetica,sans-serif;line-height:1.55}
+a{color:inherit}.nav{position:fixed;top:0;left:0;right:0;z-index:99;height:72px;display:flex;align-items:center;justify-content:space-between;padding:8px 5.5%;background:rgba(5,6,6,.92);backdrop-filter:blur(14px);border-bottom:1px solid #292c2d}
+.logo{width:125px;height:54px;object-fit:cover;border-radius:4px}.links{display:flex;gap:25px;align-items:center}.links a{font-size:12px;font-weight:900;text-transform:uppercase;letter-spacing:1px;text-decoration:none}.links a:hover{color:var(--red2)}.nav-cta{background:var(--red);padding:10px 14px;border-radius:3px}
+.hero{min-height:100vh;padding:145px 7% 85px;display:flex;align-items:center;background:linear-gradient(90deg,rgba(0,0,0,.94),rgba(0,0,0,.68) 52%,rgba(0,0,0,.28)),url('theme.jpg') center/cover fixed}
+.hero-inner{max-width:800px}.kicker,.eyebrow{color:var(--red2);font-weight:950;letter-spacing:3px;text-transform:uppercase;font-size:12px}
+h1{font-size:clamp(52px,8vw,94px);line-height:.91;text-transform:uppercase;letter-spacing:-3px;margin:18px 0 25px}h1 span,h2 span{color:var(--red2)}
+.hero p{font-size:19px;color:#ddd;max-width:680px}.actions{display:flex;gap:12px;flex-wrap:wrap;margin-top:28px}.btn{display:inline-block;text-decoration:none;text-transform:uppercase;font-weight:950;letter-spacing:.7px;padding:13px 19px;border-radius:3px;font-size:12px}.primary{background:var(--red)}.ghost{border:1px solid #777;background:rgba(0,0,0,.25)}
+.stats{display:grid;grid-template-columns:repeat(3,1fr);max-width:690px;margin-top:50px;border-top:1px solid #555}.stat{padding:18px 14px 0;border-right:1px solid #555}.stat:last-child{border:0}.stat strong{display:block;font-size:23px}.stat small{color:#999;text-transform:uppercase;font-size:10px;letter-spacing:1px}
+section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font-size:clamp(36px,5vw,58px);line-height:1;text-transform:uppercase;margin:10px 0 15px;letter-spacing:-1px}.section-head p{color:var(--muted);font-size:16px}
+.services,.catalogue,.brands{background:linear-gradient(rgba(7,8,8,.93),rgba(12,13,13,.96)),url('theme.jpg') center/cover fixed}
+.service-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:16px}.service{background:rgba(25,29,30,.92);border:1px solid var(--line);padding:25px;min-height:205px;position:relative;overflow:hidden}.service:after{content:"";position:absolute;width:95px;height:95px;border:15px solid rgba(226,27,35,.13);border-radius:50%;right:-30px;bottom:-30px}.service-icon{font-size:27px;margin-bottom:16px}.service h3{margin:0 0 7px;text-transform:uppercase;font-size:20px}.service p{color:#aeb2b3;font-size:14px}
+.catalogue{background-color:#0b0c0c}.toolbar{display:flex;gap:12px;flex-wrap:wrap;align-items:center;margin:25px 0 28px}.search{flex:1;min-width:230px;background:#151818;border:1px solid #3a3e3f;color:#fff;padding:13px 15px;border-radius:4px;outline:none}.filter{background:#151818;color:#ddd;border:1px solid #3a3e3f;padding:12px 14px;border-radius:4px;font-weight:800}.product-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.product{background:linear-gradient(145deg,#1a1e1f,#111313);border:1px solid var(--line);min-height:295px;padding:20px;display:flex;flex-direction:column;position:relative;overflow:hidden;transition:.2s transform,.2s border-color}.product:hover{transform:translateY(-3px);border-color:#555}.product-top{display:flex;justify-content:space-between;gap:8px;align-items:center}.badge{background:var(--red);font-size:10px;font-weight:950;text-transform:uppercase;padding:5px 8px}.ref{color:#777;font-size:11px;font-weight:800}.product-photo{height:150px;margin:14px 0 10px;border:1px solid #2f3435;background:#121516;display:grid;place-items:center;overflow:hidden}.product-photo img{width:100%;height:100%;object-fit:contain;display:block}.product-mark{display:none}.product-body{margin-top:auto}.product h3{margin:0;font-size:19px;text-transform:uppercase;line-height:1.15}.size{color:#c2c5c6;margin:7px 0 3px;font-size:13px}.price{color:#fff;font-weight:900;margin:0 0 14px}.mini-btn{display:inline-block;text-decoration:none;border:1px solid #575b5c;padding:9px 11px;font-size:11px;font-weight:900;text-transform:uppercase;letter-spacing:.5px}.mini-btn:hover{background:var(--red);border-color:var(--red)}.note{color:#7f8586;font-size:12px;margin-top:18px}
+.brands-row{display:grid;grid-template-columns:repeat(3,1fr);gap:15px}.brand{background:#171a1b;border:1px solid #343839;text-align:center;padding:28px;font-size:23px;font-weight:950;letter-spacing:1px}
+.about{background:linear-gradient(110deg,#1b0708,#0d0f0f 72%)}.about-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:55px;align-items:center}.about p{color:#b6bbbc}.checks{display:grid;grid-template-columns:1fr 1fr;gap:10px}.check{border-left:3px solid var(--red);background:#141718;padding:12px 14px;font-weight:800}
+.contact{background:linear-gradient(120deg,#2b080a,#0d0f0f 68%)}.contact-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:45px}.contact-info{border-left:2px solid var(--red);padding-left:22px}.contact-info p{color:#c6c9ca;margin:11px 0}footer{padding:30px 7%;text-align:center;background:#050606;border-top:1px solid #252728;color:#777;font-size:12px}.wa{position:fixed;right:18px;bottom:18px;z-index:100;width:57px;height:57px;border-radius:50%;display:grid;place-items:center;text-decoration:none;background:#20b957;color:#fff;font-size:26px;box-shadow:0 10px 30px #000}
+@media(max-width:900px){.links{display:none}.service-grid{grid-template-columns:1fr 1fr}.product-grid{grid-template-columns:1fr 1fr}.about-grid,.contact-grid{grid-template-columns:1fr}.hero{background-attachment:scroll}}
+@media(max-width:560px){section{padding:65px 6%}.hero{padding:120px 6% 65px}h1{font-size:51px}.hero p{font-size:16px}.stats{grid-template-columns:1fr}.stat{border-right:0;border-bottom:1px solid #555;padding-bottom:12px}.service-grid,.product-grid,.brands-row,.checks{grid-template-columns:1fr}}
+</style>
+</head>
+<body>
+<nav class="nav">
+  <a href="#home"><img class="logo" src="logo.jpg" alt="Tommy's Solutions"></a>
+  <div class="links">
+    <a href="#services">Services</a><a href="#catalogue">Catalogue</a><a href="#brands">Brands</a><a href="#about">About</a><a class="nav-cta" href="#contact">Contact</a>
+  </div>
+</nav>
+
+<header id="home" class="hero">
+  <div class="hero-inner">
+    <div class="kicker">Tommy's Solutions • Pretoria</div>
+    <h1>Fixing.<br><span>Cutting.</span><br>Drilling.</h1>
+    <p>Quality hardware, tools and consumables — practical solutions built for every job.</p>
+    <div class="actions"><a class="btn primary" href="#catalogue">Browse Catalogue</a><a class="btn ghost" href="#contact">Get a Quote</a></div>
+    <div class="stats"><div class="stat"><strong>Quality</strong><small>Products</small></div><div class="stat"><strong>Practical</strong><small>Solutions</small></div><div class="stat"><strong>Reliable</strong><small>Service</small></div></div>
+  </div>
+</header>
+
+<section id="services" class="services">
+  <div class="section-head"><div class="eyebrow">What we do</div><h2>Solutions for <span>every job</span></h2><p>Hardware, tools and consumables for workshop, site and project applications.</p></div>
+  <div class="service-grid">
+    <div class="service"><div class="service-icon">🔩</div><h3>Fixing</h3><p>Fixings, clamps, clips and practical hardware solutions.</p></div>
+    <div class="service"><div class="service-icon">⚙️</div><h3>Tools</h3><p>Tools and accessories for professional and everyday work.</p></div>
+    <div class="service"><div class="service-icon">🧰</div><h3>Consumables</h3><p>Bits, adhesives, foams and job-ready consumables.</p></div>
+    <div class="service"><div class="service-icon">🔥</div><h3>Fire Protection</h3><p>Selected firestop products and systems from the catalogue.</p></div>
+  </div>
+</section>
+
+<section id="catalogue" class="catalogue">
+  <div class="section-head"><div class="eyebrow">2025 catalogue selection</div><h2>Featured <span>products</span></h2><p>Search the selected catalogue range below. Prices shown are from the supplied Upat Retail / Resale 2025 price list and exclude VAT.</p></div>
+  <div class="toolbar">
+    <input class="search" id="search" type="search" placeholder="Search product, stock ref or size…">
+    <select class="filter" id="filter">
+      <option value="All">All categories</option>
+      <option>Fixings</option><option>Hardware</option><option>Bits</option><option>Adhesives</option><option>Foams</option><option>Tools</option><option>Fire Protection</option>
+    </select>
+  </div>
+  <div class="product-grid" id="products">
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-903</span></div><div class="product-photo"><img src="jockey-clamp.jpg" alt="ConStruct Jockey / G-Clamp product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Jockey / G-Clamp</h3>
+        <p class="size">M12</p>
+        <p class="price">R 3,594.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Jockey%20/%20G-Clamp%20(271-903),%20M12." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-891</span></div><div class="product-photo"><img src="articulated-clamp.jpg" alt="ConStruct Articulated G-Clamp product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Articulated G-Clamp</h3>
+        <p class="size">M8</p>
+        <p class="price">R 7,550.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Articulated%20G-Clamp%20(271-891),%20M8." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-892</span></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Articulated G-Clamp</h3>
+        <p class="size">M10</p>
+        <p class="price">R 7,596.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Articulated%20G-Clamp%20(271-892),%20M10." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-880</span></div><div class="product-photo"><img src="beam-clamp.jpg" alt="ConStruct Beam Clamp product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Beam Clamp</h3>
+        <p class="size">M8</p>
+        <p class="price">R 1,498.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Beam%20Clamp%20(271-880),%20M8." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-881</span></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Beam Clamp</h3>
+        <p class="size">M10</p>
+        <p class="price">R 1,584.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Beam%20Clamp%20(271-881),%20M10." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-929</span></div><div class="product-photo"><img src="purlin-clips.jpg" alt="ConStruct Purlin Clips product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Purlin Clips</h3>
+        <p class="size">M10</p>
+        <p class="price">R 822.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Purlin%20Clips%20(271-929),%20M10." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#271-930</span></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>ConStruct Purlin Clips</h3>
+        <p class="size">M12</p>
+        <p class="price">R 948.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Purlin%20Clips%20(271-930),%20M12." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Hardware">
+      <div class="product-top"><span class="badge">Hardware</span><span class="ref">#701-402</span></div><div class="product-photo"><img src="banding.jpg" alt="ConStruct Perforated Banding product photo"></div>
+      <div class="product-mark">HA</div>
+      <div class="product-body">
+        <h3>ConStruct Perforated Banding</h3>
+        <p class="size">17 mm</p>
+        <p class="price">R 87.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Perforated%20Banding%20(701-402),%2017%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Bits">
+      <div class="product-top"><span class="badge">Bits</span><span class="ref">#602-230</span></div><div class="product-photo"><img src="screwdriver-bits.jpg" alt="ConStruct Screwdriver Bits product photo"></div>
+      <div class="product-mark">BI</div>
+      <div class="product-body">
+        <h3>ConStruct Screwdriver Bits</h3>
+        <p class="size">PH2 × 25 mm</p>
+        <p class="price">R 80.50 / box (25)</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Screwdriver%20Bits%20(602-230),%20PH2%20×%2025%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Bits">
+      <div class="product-top"><span class="badge">Bits</span><span class="ref">#611-003</span></div>
+      <div class="product-mark">BI</div>
+      <div class="product-body">
+        <h3>ConStruct Screwdriver Bits</h3>
+        <p class="size">PZ3 × 25 mm</p>
+        <p class="price">R 64.50 / box (10)</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20ConStruct%20Screwdriver%20Bits%20(611-003),%20PZ3%20×%2025%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#725-0607</span></div><div class="product-photo"><img src="coach-screw.jpg" alt="Security Coach Screws product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>Security Coach Screws</h3>
+        <p class="size">M6 × 75 mm</p>
+        <p class="price">R 236.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Security%20Coach%20Screws%20(725-0607),%20M6%20×%2075%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fixings">
+      <div class="product-top"><span class="badge">Fixings</span><span class="ref">#725-0610</span></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>Security Coach Screws</h3>
+        <p class="size">M6 × 100 mm</p>
+        <p class="price">R 255.00 / 100</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Security%20Coach%20Screws%20(725-0610),%20M6%20×%20100%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Adhesives">
+      <div class="product-top"><span class="badge">Adhesives</span><span class="ref">#225-507</span></div><div class="product-photo"><img src="multi-ms.jpg" alt="Multi MS Construction Adhesive product photo"></div>
+      <div class="product-mark">AD</div>
+      <div class="product-body">
+        <h3>Multi MS Construction Adhesive</h3>
+        <p class="size">White, 290 ml</p>
+        <p class="price">R 235.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Multi%20MS%20Construction%20Adhesive%20(225-507),%20White,%20290%20ml." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Foams">
+      <div class="product-top"><span class="badge">Foams</span><span class="ref">#240-001</span></div><div class="product-photo"><img src="pu-foam.jpg" alt="PU Rapid Installation Foam product photo"></div>
+      <div class="product-mark">FO</div>
+      <div class="product-body">
+        <h3>PU Rapid Installation Foam</h3>
+        <p class="size">500 ml / 30 ℓ yield</p>
+        <p class="price">R 116.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20PU%20Rapid%20Installation%20Foam%20(240-001),%20500%20ml%20/%2030%20ℓ%20yield." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Foams">
+      <div class="product-top"><span class="badge">Foams</span><span class="ref">#240-002</span></div>
+      <div class="product-mark">FO</div>
+      <div class="product-body">
+        <h3>PU Rapid Installation Foam</h3>
+        <p class="size">750 ml / 41 ℓ yield</p>
+        <p class="price">R 145.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20PU%20Rapid%20Installation%20Foam%20(240-002),%20750%20ml%20/%2041%20ℓ%20yield." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Foams">
+      <div class="product-top"><span class="badge">Foams</span><span class="ref">#240-051</span></div><div class="product-photo"><img src="pu-cleaner.jpg" alt="PUR PU-cleaner product photo"></div>
+      <div class="product-mark">FO</div>
+      <div class="product-body">
+        <h3>PUR PU-cleaner</h3>
+        <p class="size">150 ml</p>
+        <p class="price">R 80.60 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20PUR%20PU-cleaner%20(240-051),%20150%20ml." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Foams">
+      <div class="product-top"><span class="badge">Foams</span><span class="ref">#240-050</span></div>
+      <div class="product-mark">FO</div>
+      <div class="product-body">
+        <h3>PUR PU-cleaner</h3>
+        <p class="size">500 ml</p>
+        <p class="price">R 143.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20PUR%20PU-cleaner%20(240-050),%20500%20ml." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Tools">
+      <div class="product-top"><span class="badge">Tools</span><span class="ref">#240-101</span></div><div class="product-photo"><img src="foam-gun.jpg" alt="Foam Gun product photo"></div>
+      <div class="product-mark">TO</div>
+      <div class="product-body">
+        <h3>Foam Gun</h3>
+        <p class="size">PUPK 2</p>
+        <p class="price">R 450.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Foam%20Gun%20(240-101),%20PUPK%202." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Tools">
+      <div class="product-top"><span class="badge">Tools</span><span class="ref">#240-202</span></div>
+      <div class="product-mark">TO</div>
+      <div class="product-body">
+        <h3>Foam Gun</h3>
+        <p class="size">PUPM 3</p>
+        <p class="price">R 554.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Foam%20Gun%20(240-202),%20PUPM%203." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fire Protection">
+      <div class="product-top"><span class="badge">Fire Protection</span><span class="ref">#241-201</span></div><div class="product-photo"><img src="firestop.jpg" alt="Firestop Foam Barrier System PLUS product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>Firestop Foam Barrier System PLUS</h3>
+        <p class="size">System PLUS</p>
+        <p class="price">R 1,082.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Firestop%20Foam%20Barrier%20System%20PLUS%20(241-201),%20System%20PLUS." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fire Protection">
+      <div class="product-top"><span class="badge">Fire Protection</span><span class="ref">#242-030</span></div><div class="product-photo"><img src="firestop.jpg" alt="FireStop Block product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>FireStop Block</h3>
+        <p class="size">FireStop Block</p>
+        <p class="price">R 713.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20FireStop%20Block%20(242-030),%20FireStop%20Block." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fire Protection">
+      <div class="product-top"><span class="badge">Fire Protection</span><span class="ref">#241-220</span></div><div class="product-photo"><img src="firestop-hand-foam.jpg" alt="Firestop Hand Foam B1 product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>Firestop Hand Foam B1</h3>
+        <p class="size">B1</p>
+        <p class="price">R 510.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20Firestop%20Hand%20Foam%20B1%20(241-220),%20B1." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fire Protection">
+      <div class="product-top"><span class="badge">Fire Protection</span><span class="ref">#242-501</span></div><div class="product-photo"><img src="fcid.jpg" alt="FCID Cast-in Device product photo"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>FCID Cast-in Device</h3>
+        <p class="size">100 mm</p>
+        <p class="price">R 2,356.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20FCID%20Cast-in%20Device%20(242-501),%20100%20mm." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    
+
+    <article class="product" data-cat="Fire Protection">
+      <div class="product-top"><span class="badge">Fire Protection</span><span class="ref">#241-053</span></div><div class="product-photo"><img src="firestop-hand-foam.jpg" alt="FCC Cable Coating product image not available in source catalogue"></div>
+      <div class="product-mark">FI</div>
+      <div class="product-body">
+        <h3>FCC Cable Coating</h3>
+        <p class="size">12.5 ℓ</p>
+        <p class="price">R 4,613.00 / each</p>
+        <a class="mini-btn" href="https://wa.me/27662578767?text=Hi%20Tommy&#x27;s%20Solutions,%20I%20would%20like%20to%20enquire%20about%20FCC%20Cable%20Coating%20(241-053),%2012.5%20ℓ." target="_blank" rel="noopener">Enquire on WhatsApp →</a>
+      </div>
+    </article>
+    </div>
+  <div class="note">Catalogue note: prices exclude VAT and are presented for enquiry/reference. Availability and current pricing should be confirmed with Tommy's Solutions before ordering.</div>
+</section>
+
+<section id="brands" class="brands">
+  <div class="section-head"><div class="eyebrow">Brands & partners</div><h2>Brands you can <span>trust</span></h2><p>We can expand this section with your official brand logos and additional partner ranges.</p></div>
+  <div class="brands-row"><div class="brand">TORKCRAFT</div><div class="brand">FISCHER</div><div class="brand">AVLOCK</div></div>
+</section>
+
+<section id="about" class="about">
+  <div class="about-grid">
+    <div><div class="eyebrow">About Tommy's Solutions</div><h2>Practical solutions.<br><span>Real results.</span></h2><p>Tommy's Solutions is committed to providing quality hardware, tools and consumables with practical solutions for every job.</p><p>Whether you're working in the workshop, on site or tackling a project at home, we're here to help you find the right product for the job.</p></div>
+    <div class="checks"><div class="check">Quality hardware</div><div class="check">Professional tools</div><div class="check">Trusted brands</div><div class="check">Practical advice</div><div class="check">Reliable service</div><div class="check">Job-focused solutions</div></div>
+  </div>
+</section>
+
+<section id="contact" class="contact">
+  <div class="contact-grid">
+    <div><div class="eyebrow">Let's get to work</div><h2>Need the right <span>solution?</span></h2><p style="color:#bbb;max-width:600px">Tell us what you're looking for and enquire directly. Tommy's Solutions is based in Pretoria, South Africa.</p><div class="actions"><a class="btn primary" href="https://wa.me/27662578767" target="_blank" rel="noopener">WhatsApp Us</a><a class="btn ghost" href="mailto:Tommysolutions29@gmail.com">Email Us</a></div></div>
+    <div class="contact-info"><h3>Contact details</h3><p>📞 066 257 8767</p><p>✉️ Tommysolutions29@gmail.com</p><p>📍 Pretoria, South Africa</p><p style="color:#888;font-size:12px">Catalogue enquiries • product information • availability • quotes</p></div>
+  </div>
+</section>
+
+<a class="wa" href="https://wa.me/27662578767" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
+<footer>© 2026 Tommy's Solutions • Fixing • Cutting • Drilling • Hardware • Tools • Consumables</footer>
+
+<script>
+const search = document.getElementById('search');
+const filter = document.getElementById('filter');
+const items = [...document.querySelectorAll('.product')];
+
+function applyFilters(){
+  const q = search.value.toLowerCase().trim();
+  const cat = filter.value;
+  items.forEach(card => {
+    const text = card.textContent.toLowerCase();
+    const matchQ = !q || text.includes(q);
+    const matchCat = cat === 'All' || card.dataset.cat === cat;
+    card.style.display = (matchQ && matchCat) ? '' : 'none';
+  });
+}
+search.addEventListener('input', applyFilters);
+filter.addEventListener('change', applyFilters);
+</script>
+</body>
+</html>
