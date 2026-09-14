@@ -172,12 +172,12 @@ function render(){
   const slice=filtered.slice((currentPage-1)*perPage,currentPage*perPage);
   count.textContent=total ? `Showing ${(currentPage-1)*perPage+1}–${Math.min(currentPage*perPage,total)} of ${total} products` : 'No products found';
   products.innerHTML=slice.map(item=>{
-    const page=Number(item.source_page||7);
-    const spriteIndex=Math.max(0,page-6);
-    const col=(spriteIndex-1)%5;
-    const row=Math.floor((spriteIndex-1)/5);
-    const img='torkcraft-pages-sprite.jpg';
-    const photoStyle=`background-image:url('${img}');background-position:-${col*180}px -${row*255}px`;
+    const page=Math.max(1,Math.min(160,Number(item.source_page||7)));
+    const atlasIndex=page-1;
+    const col=atlasIndex%10;
+    const row=Math.floor(atlasIndex/10);
+    const img='torkcraft-pages-atlas.jpg';
+    const photoStyle=`background-image:url('${img}');background-size:1800px 3744px;background-position:-${col*180}px -${row*234}px`;
     const specs=item.specs && item.specs!==item.code ? item.specs : 'See catalogue page for specifications';
     return `<article class="product">
       <div class="product-top"><span class="badge">${esc(item.family||'TORK CRAFT')}</span><span class="ref">#${esc(item.code)}</span></div>
