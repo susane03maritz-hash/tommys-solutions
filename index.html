@@ -52,7 +52,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 /* Homepage polish */
 .hero{position:relative;overflow:hidden}.hero:after{content:"";position:absolute;inset:auto -10% -18% 45%;height:45%;background:radial-gradient(circle,rgba(226,27,35,.20),transparent 65%);pointer-events:none}.hero-inner{position:relative;z-index:1}.hero-label{display:inline-flex;align-items:center;gap:9px;border:1px solid rgba(255,255,255,.18);background:rgba(0,0,0,.32);padding:8px 11px;border-radius:999px;color:#ddd;font-size:10px;font-weight:900;letter-spacing:1.4px;text-transform:uppercase}.hero-label i{width:7px;height:7px;border-radius:50%;background:var(--red2);display:block;box-shadow:0 0 14px rgba(255,56,64,.8)}.hero-note{margin-top:14px!important;font-size:12px!important;color:#9da2a3!important}.quick-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:1px;background:#303536;border:1px solid #303536}.quick-card{background:#111414;padding:22px 20px;display:flex;align-items:center;gap:14px;text-decoration:none;transition:.2s}.quick-card:hover{background:#191d1e}.quick-num{font-size:12px;color:var(--red2);font-weight:950}.quick-card strong{display:block;text-transform:uppercase;font-size:14px;letter-spacing:.5px}.quick-card span{display:block;color:#777;font-size:11px;margin-top:2px}.intro{padding-top:55px;padding-bottom:55px;background:#090a0a}.intro-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:35px;align-items:end}.intro h2{margin-bottom:0}.intro-copy{color:#aeb2b3;max-width:650px}.micro-list{display:grid;grid-template-columns:1fr 1fr;gap:10px}.micro{border-top:1px solid #343839;padding-top:11px;color:#d9dcdd;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.7px}.micro b{color:var(--red2);margin-right:5px}@media(max-width:900px){.quick-grid{grid-template-columns:1fr 1fr}.intro-grid{grid-template-columns:1fr}}@media(max-width:560px){.quick-grid{grid-template-columns:1fr 1fr}.quick-card{padding:17px 13px}.quick-card strong{font-size:12px}.hero-label{font-size:9px}.micro-list{grid-template-columns:1fr}}
 
-.catalogue-info{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border:1px solid #303536;background:#111414;padding:15px 17px;margin:20px 0 14px}.catalogue-info strong{color:#fff;text-transform:uppercase;font-size:13px;letter-spacing:.8px}.catalogue-info span{color:#858b8c;font-size:12px}.catalogue-count{color:#8f9596;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;margin:10px 0 15px}.card-actions{display:flex;gap:8px;flex-wrap:wrap}.mini-btn.secondary{background:#171a1b}.pagination{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:28px}.page-btn{background:#171a1b;color:#eee;border:1px solid #444;padding:11px 15px;border-radius:3px;font-weight:900;text-transform:uppercase;font-size:11px;cursor:pointer}.page-btn:disabled{opacity:.35;cursor:not-allowed}.page-info{color:#888;font-size:12px;font-weight:800}
+.catalogue-switch{display:flex;gap:8px;flex-wrap:wrap;margin:22px 0 14px}.catalogue-tab{background:#171a1b;color:#aaa;border:1px solid #343839;padding:12px 15px;border-radius:3px;font-weight:950;letter-spacing:1px;font-size:11px;cursor:pointer}.catalogue-tab span{color:#777;margin-left:4px}.catalogue-tab.active{background:var(--red);border-color:var(--red);color:#fff}.catalogue-tab.active span{color:#fff}.catalogue-info{display:flex;gap:16px;align-items:center;flex-wrap:wrap;border:1px solid #303536;background:#111414;padding:15px 17px;margin:20px 0 14px}.catalogue-info strong{color:#fff;text-transform:uppercase;font-size:13px;letter-spacing:.8px}.catalogue-info span{color:#858b8c;font-size:12px}.catalogue-count{color:#8f9596;font-size:12px;font-weight:800;text-transform:uppercase;letter-spacing:.7px;margin:10px 0 15px}.card-actions{display:flex;gap:8px;flex-wrap:wrap}.mini-btn.secondary{background:#171a1b}.pagination{display:flex;justify-content:center;align-items:center;gap:14px;margin-top:28px}.page-btn{background:#171a1b;color:#eee;border:1px solid #444;padding:11px 15px;border-radius:3px;font-weight:900;text-transform:uppercase;font-size:11px;cursor:pointer}.page-btn:disabled{opacity:.35;cursor:not-allowed}.page-info{color:#888;font-size:12px;font-weight:800}
 </style>
 </head>
 <body>
@@ -109,7 +109,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 
 <section id="catalogue" class="catalogue">
   <div class="section-head"><div class="eyebrow">Tork Craft 2026 catalogue</div><h2>Browse the <span>range</span></h2><p>Browse the Tork Craft 2026 catalogue. Search by product code, product family or specification, then enquire directly with Wian. No prices are shown.</p></div>
-  <div class="catalogue-info"><strong>5,000+ catalogue references</strong><span>Search by product code, size or product family.</span></div>
+  <div class="catalogue-switch" role="tablist"><button class="catalogue-tab active" data-brand="tork">TORK CRAFT <span>2026</span></button><button class="catalogue-tab" data-brand="energizer">ENERGIZER <span>2021</span></button></div><div class="catalogue-info"><strong id="catalogueTitle">5,000+ catalogue references</strong><span id="catalogueSubtitle">Search Tork Craft by product code, size or product family.</span></div>
   <div class="toolbar">
     <input class="search" id="search" type="search" placeholder="Search product code, size or description…" autocomplete="off">
     <select class="filter" id="filter"><option value="All">All categories</option></select>
@@ -122,7 +122,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 
 <section id="brands" class="brands">
   <div class="section-head"><div class="eyebrow">Brands & partners</div><h2>Brands you can <span>trust</span></h2><p>We can expand this section with your official brand logos and additional partner ranges.</p></div>
-  <div class="brands-row"><div class="brand">TORKCRAFT</div><div class="brand">FISCHER</div><div class="brand">AVLOCK</div></div>
+  <div class="brands-row"><div class="brand">TORKCRAFT</div><div class="brand">ENERGIZER</div><div class="brand">FISCHER</div><div class="brand">AVLOCK</div></div>
 </section>
 
 <section id="about" class="about">
@@ -143,7 +143,8 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 <footer>© 2026 Tommy's Solutions • Fixing • Cutting • Drilling • Hardware • Tools • Consumables</footer>
 
 <script>
-let catalogue=[];
+let catalogues={tork:[],energizer:[]};
+let activeBrand='tork';
 let filtered=[];
 let currentPage=1;
 const perPage=24;
@@ -152,17 +153,27 @@ const filter=document.getElementById('filter');
 const products=document.getElementById('products');
 const count=document.getElementById('catalogueCount');
 const pagination=document.getElementById('pagination');
+const catalogueTitle=document.getElementById('catalogueTitle');
+const catalogueSubtitle=document.getElementById('catalogueSubtitle');
+const catalogueNote=document.getElementById('catalogueNote');
 
 function esc(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 function productName(item){
+  if(activeBrand==='energizer') return item.product || item.description || 'Energizer Product';
   const raw=String(item.specs || item.description || item.family || 'Tork Craft Product').trim();
   const code=String(item.code || '').trim();
   const cleaned=raw.replace(new RegExp('^'+code.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*[-:]*\\s*','i'),'').trim();
   return cleaned || item.description || item.family || 'Tork Craft Product';
 }
 function waLink(item){
-  const text=`Hi Tommy's Solutions, I would like to enquire about ${productName(item)} (${item.code})${item.specs ? ', '+item.specs : ''}.`;
-  return 'https://wa.me/27662578767?text='+encodeURIComponent(text);
+  const name=productName(item);
+  const extra=item.specs ? ', '+item.specs : '';
+  return 'https://wa.me/27662578767?text='+encodeURIComponent(`Hi Tommy's Solutions, I would like to enquire about ${name} (${item.code})${extra}.`);
+}
+function setupFilter(){
+  filter.innerHTML='<option value="All">All categories</option>';
+  const cats=[...new Set(catalogues[activeBrand].map(x=>x.family).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
+  cats.forEach(cat=>{const o=document.createElement('option');o.value=cat;o.textContent=cat;filter.appendChild(o);});
 }
 function render(){
   const total=filtered.length;
@@ -171,14 +182,16 @@ function render(){
   const slice=filtered.slice((currentPage-1)*perPage,currentPage*perPage);
   count.textContent=total ? `Showing ${(currentPage-1)*perPage+1}–${Math.min(currentPage*perPage,total)} of ${total} products` : 'No products found';
   products.innerHTML=slice.map(item=>{
-    const photoStyle=`background-image:url('torkcraft-placeholder.jpg')`;
-    const specs=item.specs && item.specs!==item.code ? item.specs : 'See catalogue for specifications';
+    const isE=activeBrand==='energizer';
+    const img=isE ? 'energizer-placeholder.jpg' : 'torkcraft-placeholder.jpg';
+    const specs=item.specs || 'See catalogue for specifications';
+    const code=item.code || '';
     return `<article class="product">
-      <div class="product-top"><span class="badge">${esc(item.family||'TORK CRAFT')}</span><span class="ref">#${esc(item.code)}</span></div>
-      <div class="product-photo" style="${photoStyle}" role="img" aria-label="Tork Craft product ${esc(item.code)}"></div>
+      <div class="product-top"><span class="badge">${esc(isE?'ENERGIZER':(item.family||'TORK CRAFT'))}</span><span class="ref">#${esc(code)}</span></div>
+      <div class="product-photo ${isE?'energizer-photo':''}"><img loading="lazy" src="${img}" alt="${esc(isE?'Energizer image available upon request':'Tork Craft image available upon request')}" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"></div>
       <div class="product-body">
         <h3>${esc(productName(item))}</h3>
-        <p class="size"><strong>Part No.:</strong> ${esc(item.code)}${specs && specs!==productName(item) ? ' • '+esc(specs) : ''}</p>
+        <p class="size"><strong>Part No.:</strong> ${esc(code)}${item.ean ? ' • EAN '+esc(item.ean) : ''}${specs ? ' • '+esc(specs) : ''}</p>
         <div class="card-actions"><a class="mini-btn" href="${waLink(item)}" target="_blank" rel="noopener">WhatsApp →</a></div>
       </div>
     </article>`;
@@ -193,19 +206,42 @@ function render(){
 function applyFilters(){
   const q=search.value.toLowerCase().trim();
   const cat=filter.value;
-  filtered=catalogue.filter(item=>{
-    const hay=[item.code,item.family,item.description,item.specs].join(' ').toLowerCase();
+  filtered=catalogues[activeBrand].filter(item=>{
+    const hay=[item.code,item.ean,item.family,item.product,item.description,item.specs].join(' ').toLowerCase();
     return (!q || hay.includes(q)) && (cat==='All' || item.family===cat);
   });
   currentPage=1; render();
 }
-fetch('torkcraft-products.json').then(r=>r.json()).then(data=>{
-  catalogue=data;
-  const cats=[...new Set(catalogue.map(x=>x.family).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
-  cats.forEach(cat=>{const o=document.createElement('option');o.value=cat;o.textContent=cat;filter.appendChild(o);});
-  filtered=catalogue; render();
-}).catch(()=>{count.textContent='Catalogue could not be loaded. Please refresh the page.';});
-search.addEventListener('input',applyFilters); filter.addEventListener('change',applyFilters);
-</script>
+function switchBrand(brand){
+  activeBrand=brand;
+  document.querySelectorAll('.catalogue-tab').forEach(b=>b.classList.toggle('active',b.dataset.brand===brand));
+  search.value='';
+  currentPage=1;
+  setupFilter();
+  if(brand==='energizer'){
+    catalogueTitle.textContent=`${catalogues.energizer.length} catalogue references`;
+    catalogueSubtitle.textContent='Search Energizer by product code, EAN, battery type, light or category.';
+    catalogueNote.textContent='Product information is based on the supplied Energizer January 2021 catalogue. Prices and stock levels are intentionally not displayed. One consistent Energizer placeholder is used instead of incorrect catalogue-page images.';
+  }else{
+    catalogueTitle.textContent='5,000+ catalogue references';
+    catalogueSubtitle.textContent='Search Tork Craft by product code, size or product family.';
+    catalogueNote.textContent='Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Tork Craft products use the supplied lightweight placeholder where an individual image is not available.';
+  }
+  applyFilters();
+}
+document.querySelectorAll('.catalogue-tab').forEach(b=>b.addEventListener('click',()=>switchBrand(b.dataset.brand)));
+
+Promise.all([
+  fetch('torkcraft-products.json').then(r=>r.json()),
+  fetch('energizer-products.json').then(r=>r.json())
+]).then(([tork,energizer])=>{
+  catalogues={tork,energizer};
+  switchBrand('tork');
+}).catch(()=>{
+  count.textContent='Catalogue could not be loaded. Please refresh the page.';
+});
+search.addEventListener('input',applyFilters);
+filter.addEventListener('change',applyFilters);
+</script></script>
 </body>
 </html>

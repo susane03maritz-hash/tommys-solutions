@@ -1,0 +1,1232 @@
+[
+  {
+    "code": "E000019300",
+    "ean": "9312931540380",
+    "product": "AA",
+    "family": "Lithium Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000020100",
+    "ean": "039800079305",
+    "product": "AAA",
+    "family": "Lithium Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000019600",
+    "ean": "8888021300611",
+    "product": "AA",
+    "family": "Lithium Batteries",
+    "specs": "1.5V • 4 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300019300",
+    "ean": "8888021300796",
+    "product": "AAA",
+    "family": "Lithium Batteries",
+    "specs": "1.5V • 4 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000013800",
+    "ean": "8888021301403",
+    "product": "CR2032",
+    "family": "Specialty Batteries",
+    "specs": "3V • 4 pack",
+    "description": "CR2032",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000041800",
+    "ean": "8888021301656",
+    "product": "CR2025",
+    "family": "Specialty Batteries",
+    "specs": "3V • 4 pack",
+    "description": "CR2025",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301157400",
+    "ean": "8888021302042",
+    "product": "CR2016",
+    "family": "Specialty Batteries",
+    "specs": "3V • 4 pack",
+    "description": "CR2016",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301640800",
+    "ean": "8888021101010",
+    "product": "CR2032",
+    "family": "Specialty Batteries",
+    "specs": "3V • 2 pack",
+    "description": "CR2032",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301641200",
+    "ean": "8888021101027",
+    "product": "CR2025",
+    "family": "Specialty Batteries",
+    "specs": "3V • 2 pack",
+    "description": "CR2025",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301641500",
+    "ean": "8888021101034",
+    "product": "CR2016",
+    "family": "Specialty Batteries",
+    "specs": "3V • 2 pack",
+    "description": "CR2016",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000041900",
+    "ean": "8888021301779",
+    "product": "CR2032",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR2032",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301326300",
+    "ean": "8888021301755",
+    "product": "CR2025",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR2025",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301326200",
+    "ean": "8888021301731",
+    "product": "CR2016",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR2016",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301627300",
+    "ean": "8888021301724",
+    "product": "CR1620",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR1620",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301627100",
+    "ean": "8888021301717",
+    "product": "CR1616",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR1616",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301642500",
+    "ean": "8888021101041",
+    "product": "CR1220",
+    "family": "Specialty Batteries",
+    "specs": "3V • 2 pack",
+    "description": "CR1220",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301627000",
+    "ean": "8888021301700",
+    "product": "CR1220",
+    "family": "Specialty Batteries",
+    "specs": "3V • 1 pack",
+    "description": "CR1220",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1127500",
+    "ean": "039800112750",
+    "product": "Zinc-Air 10",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 8 pack",
+    "description": "Zinc-Air 10",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1127600",
+    "ean": "039800112767",
+    "product": "Zinc-Air 13",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 8 pack",
+    "description": "Zinc-Air 13",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1127700",
+    "ean": "039800112774",
+    "product": "Zinc-Air 312",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 8 pack",
+    "description": "Zinc-Air 312",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1127800",
+    "ean": "039800112781",
+    "product": "Zinc-Air 675",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 4 pack",
+    "description": "Zinc-Air 675",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1139400",
+    "ean": "039800113948",
+    "product": "Zinc-Air 10",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 4 pack",
+    "description": "Zinc-Air 10",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1139500",
+    "ean": "039800113955",
+    "product": "Zinc-Air 13",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 4 pack",
+    "description": "Zinc-Air 13",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E1139600",
+    "ean": "039800113962",
+    "product": "Zinc-Air 312",
+    "family": "Hearing Aid Batteries",
+    "specs": "1.4V • 4 pack",
+    "description": "Zinc-Air 312",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000002700",
+    "ean": "8888021300086",
+    "product": "123",
+    "family": "Photo Lithium",
+    "specs": "3V • 1 pack",
+    "description": "123",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000002800",
+    "ean": "8888021300079",
+    "product": "223",
+    "family": "Photo Lithium",
+    "specs": "6V • 1 pack",
+    "description": "223",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000030700",
+    "ean": "8888021300208",
+    "product": "CR2",
+    "family": "Photo Lithium",
+    "specs": "3V • 1 pack",
+    "description": "CR2",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000002900",
+    "ean": "8888021300093",
+    "product": "2CR5",
+    "family": "Photo Lithium",
+    "specs": "6V • 1 pack",
+    "description": "2CR5",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000017000",
+    "ean": "9312931530015",
+    "product": "LR01 / E90",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "LR01 / E90",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301322200",
+    "ean": "8888021200980",
+    "product": "AAAA",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "AAAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301641800",
+    "ean": "8888021101058",
+    "product": "A76",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "A76",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000026800",
+    "ean": "8888021301663",
+    "product": "A76",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 4 pack",
+    "description": "A76",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000051200",
+    "ean": "8888021300369",
+    "product": "A27",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 1 pack",
+    "description": "A27",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301642600",
+    "ean": "8888021101003",
+    "product": "A27",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "A27",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000047200",
+    "ean": "8888021300116",
+    "product": "A23",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 1 pack",
+    "description": "A23",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000047300",
+    "ean": "8888021300574",
+    "product": "A23",
+    "family": "Miniature Batteries",
+    "specs": "1.5V • 2 pack",
+    "description": "A23",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000047700",
+    "ean": "9312931540243",
+    "product": "A544",
+    "family": "Miniature Batteries",
+    "specs": "6V • 1 pack",
+    "description": "A544",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000038400",
+    "ean": "8888021201680",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 2 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300577400",
+    "ean": "8888021201703",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 2 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000029000",
+    "ean": "6920403163697",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 4 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300577500",
+    "ean": "6920403163703",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 4 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000019200",
+    "ean": "8888021200188",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 6 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300572600",
+    "ean": "6920403164380",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 6 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301732300",
+    "ean": "8888021200256",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 8 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300573600",
+    "ean": "8888021202489",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 8 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301638700",
+    "ean": "8888021206272",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 10 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301639000",
+    "ean": "8888021206302",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 10 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301638800",
+    "ean": "8888021206289",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 12 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301639100",
+    "ean": "8888021206319",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 12 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301638900",
+    "ean": "8888021206296",
+    "product": "AA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 16 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301639200",
+    "ean": "8888021206326",
+    "product": "AAA",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 16 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000040400",
+    "ean": "8888021201666",
+    "product": "C",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 2 pack",
+    "description": "C",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000040500",
+    "ean": "8888021201659",
+    "product": "D",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 2 pack",
+    "description": "D",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000033700",
+    "ean": "8888021204346",
+    "product": "D",
+    "family": "Alkaline Max Plus",
+    "specs": "1.5V • 4 pack",
+    "description": "D",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000035000",
+    "ean": "8888021201673",
+    "product": "9V",
+    "family": "Alkaline Max Plus",
+    "specs": "9V • 1 pack",
+    "description": "9V",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300264900",
+    "ean": "8888021203318",
+    "product": "AA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 2 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000001000",
+    "ean": "8888021203332",
+    "product": "AAA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 2 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000000600",
+    "ean": "8888021201819",
+    "product": "AA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 4 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300267800",
+    "ean": "8888021201826",
+    "product": "AAA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 4 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301639300",
+    "ean": "8888021206333",
+    "product": "AA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 10 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301639400",
+    "ean": "8888021206340",
+    "product": "AAA",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 10 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301397300",
+    "ean": "8888021205978",
+    "product": "AA 4+2",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 6 pack",
+    "description": "AA 4+2",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301397400",
+    "ean": "8888021206005",
+    "product": "AAA 4+2",
+    "family": "Alkaline Max Plus Value Pack",
+    "specs": "1.5V • 6 pack",
+    "description": "AAA 4+2",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300202700",
+    "ean": "8888021205121",
+    "product": "AA 3+1",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 4 pack",
+    "description": "AA 3+1",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300204400",
+    "ean": "8888021205206",
+    "product": "AAA 3+1",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 4 pack",
+    "description": "AAA 3+1",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301623400",
+    "ean": "8888021206210",
+    "product": "AA 4+2",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 6 pack",
+    "description": "AA 4+2",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301608300",
+    "ean": "8888021206241",
+    "product": "AAA 4+2",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 6 pack",
+    "description": "AAA 4+2",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301624200",
+    "ean": "8888021206203",
+    "product": "AA 8+4",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 12 pack",
+    "description": "AA 8+4",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301624100",
+    "ean": "8888021206258",
+    "product": "AAA 8+4",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 12 pack",
+    "description": "AAA 8+4",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301608500",
+    "ean": "8888021206227",
+    "product": "AA 15+5",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 20 pack",
+    "description": "AA 15+5",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301611900",
+    "ean": "8888021206234",
+    "product": "AAA 15+5",
+    "family": "Alkaline Max Plus Family Pack",
+    "specs": "1.5V • 20 pack",
+    "description": "AAA 15+5",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300253700",
+    "ean": "8888021205077",
+    "product": "AA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 2 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300253900",
+    "ean": "8888021205398",
+    "product": "AAA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 2 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301374300",
+    "ean": "8888021205404",
+    "product": "AA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 1 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301374800",
+    "ean": "8888021205411",
+    "product": "AAA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 1 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300173300",
+    "ean": "7638900275049",
+    "product": "AA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 16 pack",
+    "description": "AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300171600",
+    "ean": "7638900281255",
+    "product": "AAA",
+    "family": "Alkaline Standard",
+    "specs": "1.5V • 16 pack",
+    "description": "AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000018100",
+    "ean": "8888021301373",
+    "product": "AA Extreme 2300mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 4 pack",
+    "description": "AA Extreme 2300mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000018000",
+    "ean": "8888021301366",
+    "product": "AA Extreme 2300mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 2 pack",
+    "description": "AA Extreme 2300mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000057200",
+    "ean": "8888021301434",
+    "product": "AA Powerplus 2000mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 4 pack",
+    "description": "AA Powerplus 2000mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000018400",
+    "ean": "8888021301526",
+    "product": "AAA Powerplus 700mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 4 pack",
+    "description": "AAA Powerplus 700mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000017700",
+    "ean": "8888021301410",
+    "product": "AA Powerplus 2000mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 2 pack",
+    "description": "AA Powerplus 2000mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000018300",
+    "ean": "8888021301502",
+    "product": "AAA Powerplus 700mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "1.2V • 2 pack",
+    "description": "AAA Powerplus 700mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E000050800",
+    "ean": "039800009166",
+    "product": "9V Powerplus 175mAh",
+    "family": "Rechargeable Batteries",
+    "specs": "9V • 1 pack",
+    "description": "9V Powerplus 175mAh",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300701400",
+    "ean": "7638900421446",
+    "product": "Mini Charger",
+    "family": "Chargers",
+    "specs": "With 2 × 700mAh AAA",
+    "description": "Mini Charger",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300321200",
+    "ean": "7638900321401",
+    "product": "Maxi Charger",
+    "family": "Chargers",
+    "specs": "With 4 × 2000mAh AA",
+    "description": "Maxi Charger",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301335800",
+    "ean": "7638900423716",
+    "product": "Universal Charger",
+    "family": "Chargers",
+    "specs": "AA, AAA, C, D and 9V",
+    "description": "Universal Charger",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300696600",
+    "ean": "7638900398373",
+    "product": "Pro Charger",
+    "family": "Chargers",
+    "specs": "With 4 × 2000mAh AA",
+    "description": "Pro Charger",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300701500",
+    "ean": "7638900421422",
+    "product": "Base Charger",
+    "family": "Chargers",
+    "specs": "With 4 × 1300mAh AA",
+    "description": "Base Charger",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301528100",
+    "ean": "",
+    "product": "TAC 700",
+    "family": "Tactical Lights",
+    "specs": "700 lumens • 100m • IPX4 • 2×123",
+    "description": "TAC 700",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301699100",
+    "ean": "",
+    "product": "TAC 700 Rechargeable",
+    "family": "Tactical Lights",
+    "specs": "700 lumens • 100m • IPX4 • rechargeable",
+    "description": "TAC 700 Rechargeable",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301699200",
+    "ean": "",
+    "product": "TAC Ultra 1000",
+    "family": "Tactical Lights",
+    "specs": "1000 lumens • 200m • IPX7 • 6×AA",
+    "description": "TAC Ultra 1000",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E302712900",
+    "ean": "",
+    "product": "TAC 1200 Rechargeable",
+    "family": "Tactical Lights",
+    "specs": "1200 lumens • 200m • IPX4 • rechargeable",
+    "description": "TAC 1200 Rechargeable",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301393800",
+    "ean": "7638900424485",
+    "product": "Handheld Light 2 AA",
+    "family": "Safety / ATEX",
+    "specs": "150 lumens • 175m • IP67 • 2×AA",
+    "description": "Handheld Light 2 AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301393900",
+    "ean": "7638900424492",
+    "product": "Handheld Light 2 D",
+    "family": "Safety / ATEX",
+    "specs": "150 lumens • 175m • IP67 • 2×D",
+    "description": "Handheld Light 2 D",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301380800",
+    "ean": "7638900424508",
+    "product": "ATEX Headlight 3AAA",
+    "family": "Safety / ATEX",
+    "specs": "130 lumens • 45m • IP67 • 3×AAA",
+    "description": "ATEX Headlight 3AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301528000",
+    "ean": "7638900426410",
+    "product": "Rechargeable Vision HD Metal Light",
+    "family": "Metal Lights",
+    "specs": "1000 lumens high • 200m • rechargeable",
+    "description": "Rechargeable Vision HD Metal Light",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300690600",
+    "ean": "7638900419597",
+    "product": "Metal Vision HD 6AA",
+    "family": "Metal Lights",
+    "specs": "1300 lumens high • 115m • 6×AA included",
+    "description": "Metal Vision HD 6AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300691000",
+    "ean": "7638900419580",
+    "product": "Metal Vision HD 3AAA",
+    "family": "Metal Lights",
+    "specs": "270 lumens high • 84m • 3×AAA included",
+    "description": "Metal Vision HD 3AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300667900",
+    "ean": "7638900287424",
+    "product": "Inspection 2AA",
+    "family": "Handheld / Area Lights",
+    "specs": "300 lumens high / 45 low • 115m • 2×AA included",
+    "description": "Inspection 2AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300640500",
+    "ean": "7638900287448",
+    "product": "Inspection 4AA",
+    "family": "Handheld / Area Lights",
+    "specs": "400 lumens high / 40 low • 125m • 4×AA included",
+    "description": "Inspection 4AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301340800",
+    "ean": "7638900423792",
+    "product": "Pivot",
+    "family": "Handheld / Area Lights",
+    "specs": "300 lumens high / 30 low • 30m • 2×AA included",
+    "description": "Pivot",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300668200",
+    "ean": "7638900398250",
+    "product": "Worklight",
+    "family": "Area Lights",
+    "specs": "550 lumens high / 150 low • 4×AA included",
+    "description": "Worklight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301699400",
+    "ean": "7638900430301",
+    "product": "Panel Worklight",
+    "family": "Area Lights",
+    "specs": "1100 lumens • 4h high • rechargeable",
+    "description": "Panel Worklight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300668100",
+    "ean": "7638900344974",
+    "product": "Rechargeable Spotlight",
+    "family": "Area Lights",
+    "specs": "600 lumens high / 200 low • 425m • rechargeable",
+    "description": "Rechargeable Spotlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301699600",
+    "ean": "7638900430325",
+    "product": "Rechargeable Lantern",
+    "family": "Everyday / Outdoor Lights",
+    "specs": "1000 lumens high • 360° lighting • rechargeable",
+    "description": "Rechargeable Lantern",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300847600",
+    "ean": "7638900414707",
+    "product": "Fusion Compact Area Lantern",
+    "family": "Everyday / Outdoor Lights",
+    "specs": "240 lumens high / 80 low • 4×AA",
+    "description": "Fusion Compact Area Lantern",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301440800",
+    "ean": "7638900426458",
+    "product": "USB Lantern",
+    "family": "Everyday / Outdoor Lights",
+    "specs": "1000 lumens high • 4×D batteries not included",
+    "description": "USB Lantern",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301528200",
+    "ean": "7638900426441",
+    "product": "Rechargeable Headlight",
+    "family": "Headlights",
+    "specs": "400 lumens high • 80m • rechargeable",
+    "description": "Rechargeable Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301371800",
+    "ean": "7638900424478",
+    "product": "Vision Ultra HD Headlight",
+    "family": "Headlights",
+    "specs": "450 lumens high • 80m • 3×AAA included",
+    "description": "Vision Ultra HD Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301699300",
+    "ean": "7638900430295",
+    "product": "Inspection Light",
+    "family": "Headlights / Inspection",
+    "specs": "80 lumens • 25m • 2×AAA included",
+    "description": "Inspection Light",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E301422000",
+    "ean": "7638900426434",
+    "product": "Wearable Clip Light",
+    "family": "Headlights / Inspection",
+    "specs": "30 lumens • 3h15 • 2×CR2032 included",
+    "description": "Wearable Clip Light",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300280700",
+    "ean": "7638900412802",
+    "product": "Vision HD+ Focus Headlight",
+    "family": "Headlights",
+    "specs": "400 lumens • 85m • 3×AAA included",
+    "description": "Vision HD+ Focus Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300280600",
+    "ean": "7638900316384",
+    "product": "Vision HD+ Headlight",
+    "family": "Headlights",
+    "specs": "350 lumens • 70m • 3×AAA included",
+    "description": "Vision HD+ Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300280500",
+    "ean": "7638900316377",
+    "product": "Vision HD Headlight",
+    "family": "Headlights",
+    "specs": "300 lumens • 50m • 3×AAA included",
+    "description": "Vision HD Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300280304",
+    "ean": "7638900270228",
+    "product": "Vision Headlight",
+    "family": "Headlights",
+    "specs": "200 lumens • 50m • 3×AAA included",
+    "description": "Vision Headlight",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300477600",
+    "ean": "7638900383911",
+    "product": "Booklite LED",
+    "family": "Book / Clip Lights",
+    "specs": "2×CR2032 • flexible clip light",
+    "description": "Booklite LED",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300810600",
+    "ean": "7638900326307",
+    "product": "Impact Light 2AAA",
+    "family": "Handheld Torches",
+    "specs": "60 lumens • 50m • 18h • 2×AAA included",
+    "description": "Impact Light 2AAA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300668300",
+    "ean": "7638900326291",
+    "product": "Impact Light 2AA",
+    "family": "Handheld Torches",
+    "specs": "60 lumens • 65m • 30h • 2×AA included",
+    "description": "Impact Light 2AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300668800",
+    "ean": "7638900386677",
+    "product": "LED Light 2AA",
+    "family": "Handheld Torches",
+    "specs": "25 lumens • 35m • 30h • 2×AA not included",
+    "description": "LED Light 2AA",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300667700",
+    "ean": "7638900386660",
+    "product": "LED Light 2D",
+    "family": "Handheld Torches",
+    "specs": "25 lumens • 35m • 120h • 2×D not included",
+    "description": "LED Light 2D",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300636300",
+    "ean": "7638900418811",
+    "product": "Waterproof Light",
+    "family": "Handheld Torches",
+    "specs": "55 lumens • 50m • 35h • IPX7 • 2×AA included",
+    "description": "Waterproof Light",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  },
+  {
+    "code": "E300668700",
+    "ean": "7638900398212",
+    "product": "LED Lantern 80 Lumens",
+    "family": "Lanterns",
+    "specs": "80 lumens • 2/4D not included",
+    "description": "LED Lantern 80 Lumens",
+    "brand": "Energizer",
+    "image": "energizer-placeholder.jpg"
+  }
+]
