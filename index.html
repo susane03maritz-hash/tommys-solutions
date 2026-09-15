@@ -44,7 +44,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 .product-body{display:flex;flex-direction:column;min-height:145px}.product h3{font-size:16px;line-height:1.2;letter-spacing:.2px}.size{font-size:11px;line-height:1.45;color:#aeb3b4;margin:8px 0 12px}.size strong{color:#e4e6e6}.card-actions{margin-top:auto}.mini-btn{border-radius:4px;padding:8px 10px}.mini-btn.secondary{color:#b8bdbe}
 .no-photo{position:relative}.no-photo:after{content:"CATALOGUE IMAGE";font-size:10px;letter-spacing:1.5px;color:#666;position:absolute}
 .pagination{gap:10px}.page-btn{border-radius:5px}.page-btn:disabled{opacity:.4;cursor:not-allowed}.page-info{color:#aeb3b4;font-size:12px;font-weight:800;min-width:110px;text-align:center}
-.note{border-top:1px solid #2a2e2f;padding-top:16px;line-height:1.6}
+.fischer-viewer{margin-top:20px}.fischer-actions{display:flex;align-items:center;gap:15px;flex-wrap:wrap;margin-bottom:14px}.fischer-actions span{color:#888;font-size:12px}.fischer-viewer iframe{width:100%;height:78vh;min-height:620px;border:1px solid #2f3435;border-radius:8px;background:#fff}.note{border-top:1px solid #2a2e2f;padding-top:16px;line-height:1.6}
 @media(max-width:1100px){.product-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:900px){.toolbar{top:92px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}}
 @media(max-width:560px){.toolbar{top:92px;padding:8px}.product-grid{grid-template-columns:1fr 1fr;gap:10px}.product{min-height:350px;padding:11px}.product-photo{height:auto;aspect-ratio:11/8}.product h3{font-size:14px}.badge{font-size:9px;padding:4px 6px}.ref{font-size:9px}.size{font-size:10px}.mini-btn{font-size:9px;padding:7px 8px}.filter{min-width:125px}.search{min-width:150px;font-size:13px}}
@@ -109,7 +109,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 
 <section id="catalogue" class="catalogue">
   <div class="section-head"><div class="eyebrow">Tork Craft 2026 catalogue</div><h2>Browse the <span>range</span></h2><p>Browse the Tork Craft 2026 catalogue. Search by product code, product family or specification, then enquire directly with Wian. No prices are shown.</p></div>
-  <div class="catalogue-switch" role="tablist"><button class="catalogue-tab active" data-brand="tork">TORK CRAFT <span>2026</span></button><button class="catalogue-tab" data-brand="energizer">ENERGIZER <span>2021</span></button><button class="catalogue-tab" data-brand="howard">HOWARD <span>CATALOGUE</span></button></div><div class="catalogue-info"><strong id="catalogueTitle">5,000+ catalogue references</strong><span id="catalogueSubtitle">Search Tork Craft by product code, size or product family.</span></div>
+  <div class="catalogue-switch" role="tablist"><button class="catalogue-tab active" data-brand="tork">TORK CRAFT <span>2026</span></button><button class="catalogue-tab" data-brand="energizer">ENERGIZER <span>2021</span></button><button class="catalogue-tab" data-brand="howard">HOWARD <span>CATALOGUE</span></button><button class="catalogue-tab" data-brand="fischer">FISCHER <span>CATALOGUE</span></button></div><div class="catalogue-info"><strong id="catalogueTitle">5,000+ catalogue references</strong><span id="catalogueSubtitle">Search Tork Craft by product code, size or product family.</span></div>
   <div class="toolbar">
     <input class="search" id="search" type="search" placeholder="Search product code, size or description…" autocomplete="off">
     <select class="filter" id="filter"><option value="All">All categories</option></select>
@@ -117,6 +117,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
   <div class="catalogue-count" id="catalogueCount">Loading catalogue…</div>
   <div class="product-grid" id="products"></div>
   <div class="pagination" id="pagination"></div>
+  <div id="fischerViewer" class="fischer-viewer" hidden><div class="fischer-actions"><a class="btn primary" href="fischer-catalogue.pdf" target="_blank" rel="noopener">OPEN FISCHER CATALOGUE ↗</a><span>45-page Tommy’s Solutions Fischer catalogue • No prices</span></div><iframe src="fischer-catalogue.pdf#view=FitH" title="Fischer Catalogue" loading="lazy"></iframe></div>
   <div class="note">Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Where an individual product photo is not available, the Tommy’s Solutions placeholder is shown instead of using a potentially incorrect product image.</div>
 </section>
 
@@ -143,7 +144,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 <footer>© 2026 Tommy's Solutions • Fixing • Cutting • Drilling • Hardware • Tools • Consumables</footer>
 
 <script>
-let catalogues={tork:[],energizer:[]};
+let catalogues={tork:[],energizer:[],howard:[]};
 let activeBrand='tork';
 let filtered=[];
 let currentPage=1;
@@ -156,6 +157,8 @@ const pagination=document.getElementById('pagination');
 const catalogueTitle=document.getElementById('catalogueTitle');
 const catalogueSubtitle=document.getElementById('catalogueSubtitle');
 const catalogueNote=document.getElementById('catalogueNote');
+const fischerViewer=document.getElementById('fischerViewer');
+const catalogueCount=document.getElementById('catalogueCount');
 
 function esc(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 function productName(item){
@@ -172,6 +175,7 @@ function waLink(item){
 }
 function setupFilter(){
   filter.innerHTML='<option value="All">All categories</option>';
+  if(activeBrand==='fischer') return;
   const cats=[...new Set(catalogues[activeBrand].map(x=>x.family).filter(Boolean))].sort((a,b)=>a.localeCompare(b));
   cats.forEach(cat=>{const o=document.createElement('option');o.value=cat;o.textContent=cat;filter.appendChild(o);});
 }
@@ -215,11 +219,21 @@ function applyFilters(){
 }
 function switchBrand(brand){
   activeBrand=brand;
+  const isFischer=brand==='fischer';
+  document.querySelector('.toolbar').style.display=isFischer?'none':'flex';
+  products.style.display=isFischer?'none':'grid';
+  pagination.style.display=isFischer?'none':'flex';
+  catalogueCount.style.display=isFischer?'none':'block';
+  fischerViewer.hidden=!isFischer;
   document.querySelectorAll('.catalogue-tab').forEach(b=>b.classList.toggle('active',b.dataset.brand===brand));
   search.value='';
   currentPage=1;
   setupFilter();
-  if(brand==='energizer'){
+  if(brand==='fischer'){
+    catalogueTitle.textContent='Fischer catalogue';
+    catalogueSubtitle.textContent='Browse the supplied Tommy’s Solutions Fischer catalogue directly.';
+    catalogueNote.textContent='Product information is based on the supplied 45-page Fischer catalogue. Prices and stock levels are intentionally not displayed.';
+  }else if(brand==='energizer'){
     catalogueTitle.textContent=`${catalogues.energizer.length} catalogue references`;
     catalogueSubtitle.textContent='Search Energizer by product code, EAN, battery type, light or category.';
     catalogueNote.textContent='Product information is based on the supplied Energizer January 2021 catalogue. Prices and stock levels are intentionally not displayed. One consistent Tommy’s Solutions placeholder is used instead of incorrect catalogue-page images.';
@@ -232,6 +246,7 @@ function switchBrand(brand){
     catalogueSubtitle.textContent='Search Tork Craft by product code, size or product family.';
     catalogueNote.textContent='Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Products use the supplied Tommy’s Solutions placeholder where an individual image is not available.';
   }
+  if(isFischer){ filtered=[]; return; }
   applyFilters();
 }
 document.querySelectorAll('.catalogue-tab').forEach(b=>b.addEventListener('click',()=>switchBrand(b.dataset.brand)));
