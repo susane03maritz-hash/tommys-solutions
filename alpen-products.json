@@ -1,0 +1,732 @@
+[
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "Profi Multicut",
+    "code": "172",
+    "specs": "3\u201312 mm",
+    "source_page": 31,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tungsten carbide multipurpose drill bit for precision rotary drilling in tiles, masonry, metal, wood and plastics."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "Profi Multicut",
+    "code": "729\u2013730",
+    "specs": "5\u201316 mm",
+    "source_page": 32,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Multipurpose drill family for versatile drilling applications across common construction materials."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "Profi Multicut",
+    "code": "272",
+    "specs": "4\u201310 mm",
+    "source_page": 33,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Universal special drill bit with diamond-ground cutting edges for metal, masonry and tiles."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "Profi Multicut",
+    "code": "509 / 519 / 529 / 539 / 579",
+    "specs": "5\u201320 mm",
+    "source_page": 34,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Multipurpose special-drill range for demanding mixed-material applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "Profi Ziegel",
+    "code": "352",
+    "specs": "4\u201310 mm",
+    "source_page": 39,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Special drill range for brick and masonry applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Special Drill Bits",
+    "description": "DUST EXTRACTOR SHARP",
+    "code": "680",
+    "specs": "6\u201316 mm",
+    "source_page": 41,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tungsten carbide extraction drill bits for solid/cavity bricks and tiles; designed for secure dowel hold."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "Profi Beton",
+    "code": "188 / 727 / 737",
+    "specs": "3\u201320 mm",
+    "source_page": 67,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Concrete and masonry drill family for rotary and impact drilling applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "Profi Beton",
+    "code": "189",
+    "specs": "4\u201310 mm",
+    "source_page": 69,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Concrete drill family with cylindrical-shank options."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "Long Life",
+    "code": "117 / 118 / 327 / 367 / 517 / 617 / 718",
+    "specs": "3\u201322 mm",
+    "source_page": 73,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Long Life masonry drill range designed for reliable drilling performance and long service life."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "FORCE X",
+    "code": "762\u2013765 / 805 / 815 / 825 / 835 / 845 / 875 / 905 / 915",
+    "specs": "5\u201332 mm",
+    "source_page": 79,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "High-performance masonry drill family for professional applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "F4 Forte",
+    "code": "768\u2013771 / 773 / 778 / 807 / 817 / 827 / 837 / 847 / 877 / 887 / 913 / 914",
+    "specs": "4\u201326 mm",
+    "source_page": 85,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Professional masonry drill range for demanding applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "DUST EXTRACTOR SMASH",
+    "code": "580",
+    "specs": "6\u201316 mm",
+    "source_page": 93,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Dust-extraction masonry drilling solution."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-plus Bohrkrone",
+    "code": "897\u2013899",
+    "specs": "25\u201380 mm",
+    "source_page": 94,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-plus core drilling range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "DEMOLISHER Plus",
+    "code": "987",
+    "specs": "\u2014",
+    "source_page": 95,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-plus demolition tool family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-plus Chisels",
+    "code": "980 / 981 / 982 / 983 / 985",
+    "specs": "\u2014",
+    "source_page": 96,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-plus chisels for demolition and material removal."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-max",
+    "code": "889\u2013895",
+    "specs": "12\u201350 mm",
+    "source_page": 98,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-max drilling range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-max Core Drill",
+    "code": "871\u2013872",
+    "specs": "12\u2013125 mm",
+    "source_page": 101,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-max core drilling range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-max Milling Crown",
+    "code": "885\u2013886",
+    "specs": "45\u201380 mm",
+    "source_page": 102,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-max milling crown range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "DEMOLISHER Max",
+    "code": "973",
+    "specs": "\u2014",
+    "source_page": 103,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-max demolition tool family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "SDS-max Chisels",
+    "code": "970 / 971 / 974 / 978 / 979",
+    "specs": "\u2014",
+    "source_page": 104,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "SDS-max chisels for heavy-duty demolition work."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Masonry & SDS",
+    "description": "Shank Adaptor",
+    "code": "996",
+    "specs": "SDS-max to SDS-plus",
+    "source_page": 106,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Adaptor converting an SDS-max holder to SDS-plus."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS PZ-Cobalt",
+    "code": "901 / 921",
+    "specs": "1\u201313 mm",
+    "source_page": 114,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 cobalt drill family with 130\u00b0 point geometry for metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS PZ-Cobalt Grip",
+    "code": "904 / 906",
+    "specs": "1\u201320 mm",
+    "source_page": 119,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Cobalt drill family with TiN-coated option for metal applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS Super",
+    "code": "321 / 331 / 371 / 311",
+    "specs": "3\u20136.1 mm",
+    "source_page": 122,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS drill families for general metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS DIN 338",
+    "code": "601",
+    "specs": "0.2\u201320 mm",
+    "source_page": 145,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "DIN 338 HSS drill range for general-purpose metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "PRO",
+    "code": "184 / 954",
+    "specs": "1\u201313 mm",
+    "source_page": 152,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Professional HSS drill family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "PRO",
+    "code": "952",
+    "specs": "2\u20138 mm",
+    "source_page": 155,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Professional HSS drill family for precise metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS Super",
+    "code": "181 / 951",
+    "specs": "1\u201313 mm",
+    "source_page": 157,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS Super range for general metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "Sprint Master",
+    "code": "618 / 626 / 631",
+    "specs": "0.4\u201320 mm",
+    "source_page": 162,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Sprint Master HSS drill family for high-performance drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "Sprint Master",
+    "code": "640 / 642 / 648 / 654",
+    "specs": "10.5\u201320 mm",
+    "source_page": 166,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Large-diameter Sprint Master drill range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Metal & Stainless Steel",
+    "description": "HSS Cobalt",
+    "code": "633",
+    "specs": "3\u201320 mm",
+    "source_page": 194,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 cobalt drill family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Wood Drills",
+    "description": "TIMBER TWIST",
+    "code": "671",
+    "specs": "1\u201320 mm",
+    "source_page": 197,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Timber Twist HSS wood-drill family with special point geometry."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Wood Drills",
+    "description": "TIMBER TWIST",
+    "code": "675",
+    "specs": "3\u201310 mm",
+    "source_page": 199,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Timber Twist HSS wood-drill family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Wood Drills",
+    "description": "Profi Holz",
+    "code": "620",
+    "specs": "3\u201312 mm",
+    "source_page": 202,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Professional HSS wood-drill range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Wood Drills",
+    "description": "Profi Holz",
+    "code": "622",
+    "specs": "3\u201310 mm",
+    "source_page": 203,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Professional HSS wood-drill range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Wood Drills",
+    "description": "Holz",
+    "code": "616",
+    "specs": "1\u201320 mm",
+    "source_page": 205,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "General wood-drill family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "VHM Drill",
+    "code": "6146",
+    "specs": "0.5\u201320 mm",
+    "source_page": 231,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Solid carbide drill family, 3\u00d7D, for professional metal drilling."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "VHM Drill",
+    "code": "6147",
+    "specs": "0.5\u201314 mm",
+    "source_page": 231,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Solid carbide drill family, 3\u00d7D, with ALUNIT coating."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "VHM Drill",
+    "code": "6156",
+    "specs": "1\u201316 mm",
+    "source_page": 234,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Solid carbide drill family, 5\u00d7D."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "VHM Drill",
+    "code": "6157",
+    "specs": "1\u201316 mm",
+    "source_page": 234,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Solid carbide drill family, 5\u00d7D, with ALUNIT coating."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr ZYA",
+    "code": "7770\u20137778",
+    "specs": "2\u201320 mm",
+    "source_page": 240,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, ZYA profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr ZYA-S",
+    "code": "7782\u20137789",
+    "specs": "2\u201320 mm",
+    "source_page": 242,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, ZYA-S profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr WRC",
+    "code": "7790\u20137799",
+    "specs": "3\u201320 mm",
+    "source_page": 244,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, WRC profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr SPG",
+    "code": "7800\u20137809",
+    "specs": "3\u201316 mm",
+    "source_page": 246,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, SPG profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr WKN",
+    "code": "7813\u20137816",
+    "specs": "3\u201312 mm",
+    "source_page": 248,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, WKN profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Tungsten Carbide Tools",
+    "description": "Rotary Burr SKM",
+    "code": "7833\u20137837",
+    "specs": "3\u201316 mm",
+    "source_page": 250,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Carbide rotary burr range, SKM profile."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Set / Tap Family",
+    "code": "717",
+    "specs": "M3\u2013M10",
+    "source_page": 280,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Metric tap range, DIN 352, HSS-Co5, ISO 2 6H."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "707",
+    "specs": "M2\u2013M12",
+    "source_page": 281,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Metric tap range, DIN 352."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Pipe Tap Family",
+    "code": "706",
+    "specs": "G1/8\u2013G1/2",
+    "source_page": 282,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Pipe thread tap range, DIN 5157."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "708",
+    "specs": "M2\u2013M12",
+    "source_page": 283,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Metric tap range, DIN 352."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "712 / 5430",
+    "specs": "Nr. 1\u00bd + 3",
+    "source_page": 284,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family covering the listed metric/combined thread applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "713",
+    "specs": "3\u201312 mm",
+    "source_page": 284,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap/tool family for thread preparation."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "902",
+    "specs": "3\u201318 mm",
+    "source_page": 284,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap/tool family for thread preparation."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "701",
+    "specs": "M5\u2013M20",
+    "source_page": 284,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Metric tap family."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "710",
+    "specs": "M2\u2013M12",
+    "source_page": 285,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family, DIN EN 22568 / metric applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Die Family",
+    "code": "711",
+    "specs": "Nr. 4",
+    "source_page": 286,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Die family for threading applications."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "704",
+    "specs": "M3\u2013M12",
+    "source_page": 287,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family, DIN 371 / DIN 376."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "714",
+    "specs": "M3\u2013M12",
+    "source_page": 288,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family, DIN 371 / DIN 376."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "709",
+    "specs": "M3\u2013M12",
+    "source_page": 289,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family for metric threading."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "719",
+    "specs": "M3\u2013M12",
+    "source_page": 290,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family for metric threading."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "702",
+    "specs": "M3\u2013M10",
+    "source_page": 291,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family for metric threading."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Tap Family",
+    "code": "703",
+    "specs": "M3\u2013M10",
+    "source_page": 292,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "Tap family for metric threading."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2270",
+    "specs": "6.3\u201325 mm",
+    "source_page": 293,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 60\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2390",
+    "specs": "6.3\u201331 mm",
+    "source_page": 294,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2397",
+    "specs": "6.3\u201331 mm",
+    "source_page": 294,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0 with ALUNIT coating."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2380",
+    "specs": "6.3\u201331 mm",
+    "source_page": 296,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2387",
+    "specs": "6.3\u201331 mm",
+    "source_page": 296,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2340",
+    "specs": "6.3\u201331 mm",
+    "source_page": 298,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2347",
+    "specs": "6.3\u201331 mm",
+    "source_page": 298,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2290",
+    "specs": "4.3\u201331 mm",
+    "source_page": 300,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2297",
+    "specs": "5\u201331 mm",
+    "source_page": 300,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS-Co5 countersink range, 90\u00b0."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2320",
+    "specs": "6.3\u201331 mm",
+    "source_page": 303,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS countersink range."
+  },
+  {
+    "brand": "ALPEN",
+    "family": "Taps, Dies & Countersinks",
+    "description": "Countersink",
+    "code": "2292",
+    "specs": "6.3\u201325 mm",
+    "source_page": 305,
+    "placeholder": "catalogue-placeholder.jpg",
+    "details": "HSS countersink range."
+  }
+]
