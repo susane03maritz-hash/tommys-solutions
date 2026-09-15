@@ -109,7 +109,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 
 <section id="catalogue" class="catalogue">
   <div class="section-head"><div class="eyebrow">Tork Craft 2026 catalogue</div><h2>Browse the <span>range</span></h2><p>Browse the Tork Craft 2026 catalogue. Search by product code, product family or specification, then enquire directly with Wian. No prices are shown.</p></div>
-  <div class="catalogue-switch" role="tablist"><button class="catalogue-tab active" data-brand="tork">TORK CRAFT <span>2026</span></button><button class="catalogue-tab" data-brand="energizer">ENERGIZER <span>2021</span></button></div><div class="catalogue-info"><strong id="catalogueTitle">5,000+ catalogue references</strong><span id="catalogueSubtitle">Search Tork Craft by product code, size or product family.</span></div>
+  <div class="catalogue-switch" role="tablist"><button class="catalogue-tab active" data-brand="tork">TORK CRAFT <span>2026</span></button><button class="catalogue-tab" data-brand="energizer">ENERGIZER <span>2021</span></button><button class="catalogue-tab" data-brand="howard">HOWARD <span>CATALOGUE</span></button></div><div class="catalogue-info"><strong id="catalogueTitle">5,000+ catalogue references</strong><span id="catalogueSubtitle">Search Tork Craft by product code, size or product family.</span></div>
   <div class="toolbar">
     <input class="search" id="search" type="search" placeholder="Search product code, size or description…" autocomplete="off">
     <select class="filter" id="filter"><option value="All">All categories</option></select>
@@ -122,7 +122,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 
 <section id="brands" class="brands">
   <div class="section-head"><div class="eyebrow">Brands & partners</div><h2>Brands you can <span>trust</span></h2><p>We can expand this section with your official brand logos and additional partner ranges.</p></div>
-  <div class="brands-row"><div class="brand">TORKCRAFT</div><div class="brand">ENERGIZER</div><div class="brand">FISCHER</div><div class="brand">AVLOCK</div></div>
+  <div class="brands-row"><div class="brand">TORKCRAFT</div><div class="brand">ENERGIZER</div><div class="brand">HOWARD</div><div class="brand">FISCHER</div><div class="brand">AVLOCK</div></div>
 </section>
 
 <section id="about" class="about">
@@ -159,7 +159,7 @@ const catalogueNote=document.getElementById('catalogueNote');
 
 function esc(v){return String(v??'').replace(/[&<>'"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;',"'":'&#39;','"':'&quot;'}[c]));}
 function productName(item){
-  if(activeBrand==='energizer') return item.product || item.description || 'Energizer Product';
+  if(activeBrand==='energizer' || activeBrand==='howard') return item.product || item.description || (activeBrand==='howard'?'Howard Product':'Energizer Product');
   const raw=String(item.specs || item.description || item.family || 'Tork Craft Product').trim();
   const code=String(item.code || '').trim();
   const cleaned=raw.replace(new RegExp('^'+code.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+'\\s*[-:]*\\s*','i'),'').trim();
@@ -183,12 +183,13 @@ function render(){
   count.textContent=total ? `Showing ${(currentPage-1)*perPage+1}–${Math.min(currentPage*perPage,total)} of ${total} products` : 'No products found';
   products.innerHTML=slice.map(item=>{
     const isE=activeBrand==='energizer';
-    const img=isE ? 'energizer-placeholder.jpg' : 'torkcraft-placeholder.jpg';
+    const isH=activeBrand==='howard';
+    const img=isE ? 'energizer-placeholder.jpg' : (isH ? 'howard-placeholder.jpg' : 'torkcraft-placeholder.jpg');
     const specs=item.specs || 'See catalogue for specifications';
     const code=item.code || '';
     return `<article class="product">
-      <div class="product-top"><span class="badge">${esc(isE?'ENERGIZER':(item.family||'TORK CRAFT'))}</span><span class="ref">#${esc(code)}</span></div>
-      <div class="product-photo ${isE?'energizer-photo':''}"><img loading="lazy" src="${img}" alt="${esc(isE?'Energizer image available upon request':'Tork Craft image available upon request')}" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"></div>
+      <div class="product-top"><span class="badge">${esc(isE?'ENERGIZER':(isH?'HOWARD':(item.family||'TORK CRAFT')))}</span><span class="ref">#${esc(code)}</span></div>
+      <div class="product-photo ${isE?'energizer-photo':(isH?'howard-photo':'')}"><img loading="lazy" src="${img}" alt="${esc(isE?'Energizer image available upon request':(isH?'Howard image available upon request':'Tork Craft image available upon request'))}" onerror="this.style.display='none';this.parentElement.classList.add('no-photo')"></div>
       <div class="product-body">
         <h3>${esc(productName(item))}</h3>
         <p class="size"><strong>Part No.:</strong> ${esc(code)}${item.ean ? ' • EAN '+esc(item.ean) : ''}${specs ? ' • '+esc(specs) : ''}</p>
@@ -222,6 +223,10 @@ function switchBrand(brand){
     catalogueTitle.textContent=`${catalogues.energizer.length} catalogue references`;
     catalogueSubtitle.textContent='Search Energizer by product code, EAN, battery type, light or category.';
     catalogueNote.textContent='Product information is based on the supplied Energizer January 2021 catalogue. Prices and stock levels are intentionally not displayed. One consistent Energizer placeholder is used instead of incorrect catalogue-page images.';
+  }else if(brand==='howard'){
+    catalogueTitle.textContent=`${catalogues.howard.length} catalogue references`;
+    catalogueSubtitle.textContent='Search Howard by product code, product family or specification.';
+    catalogueNote.textContent='Product information is based on the supplied Howard catalogue. Prices and stock levels are intentionally not displayed. One consistent Howard placeholder is used instead of incorrect catalogue-page images.';
   }else{
     catalogueTitle.textContent='5,000+ catalogue references';
     catalogueSubtitle.textContent='Search Tork Craft by product code, size or product family.';
@@ -233,9 +238,10 @@ document.querySelectorAll('.catalogue-tab').forEach(b=>b.addEventListener('click
 
 Promise.all([
   fetch('torkcraft-products.json').then(r=>r.json()),
-  fetch('energizer-products.json').then(r=>r.json())
-]).then(([tork,energizer])=>{
-  catalogues={tork,energizer};
+  fetch('energizer-products.json').then(r=>r.json()),
+  fetch('howard-products.json').then(r=>r.json())
+]).then(([tork,energizer,howard])=>{
+  catalogues={tork,energizer,howard};
   switchBrand('tork');
 }).catch(()=>{
   count.textContent='Catalogue could not be loaded. Please refresh the page.';
