@@ -1,0 +1,344 @@
+[
+  {
+    "code": "HPCA0004",
+    "product": "Chalk-Tique Powder Additive for Paint 113g",
+    "family": "Chalk-Tique",
+    "specs": "113g",
+    "description": "Turns latex or water-based paint into chalk-style paint; gives a thick, creamy texture that adheres to surfaces, covers easily and allows minimal prep work.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPCTPW07",
+    "product": "Chalk-Tique Dark Paste Wax 170g",
+    "family": "Chalk-Tique",
+    "specs": "170g",
+    "description": "Follow-up wax for chalk-style painted surfaces; dark wax shadows details and creates an antique look.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPCTPW01",
+    "product": "Chalk-Tique Light Paste Wax 170g",
+    "family": "Chalk-Tique",
+    "specs": "170g",
+    "description": "Light wax seals and protects chalk-style painted surfaces, leaving a soft lustre and rich glow.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF1008",
+    "product": "Restor-A-Finish – Neutral",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Neutral.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF2008",
+    "product": "Restor-A-Finish – Maple-Pine",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Maple-Pine.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF3008",
+    "product": "Restor-A-Finish – Golden Oak",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Golden Oak.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF4008",
+    "product": "Restor-A-Finish – Walnut",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Walnut.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF5008",
+    "product": "Restor-A-Finish – Mahogany",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Mahogany.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF6008",
+    "product": "Restor-A-Finish – Dark Walnut",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Dark Walnut.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF7008",
+    "product": "Restor-A-Finish – Dark Oak",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Dark Oak.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF8008",
+    "product": "Restor-A-Finish – Ebony Brown",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Ebony Brown.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRF9008",
+    "product": "Restor-A-Finish – Cherry",
+    "family": "Wood Restoration",
+    "specs": "236ml",
+    "description": "Finish-restoring formula for refreshing most finished wood surfaces without stripping the existing finish. Colour: Cherry.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPRS0016",
+    "product": "Restore-A-Shine Wood Polishing Compound – Neutral",
+    "family": "Wood Polishing",
+    "specs": "473ml",
+    "description": "Polishes and buffs away fine scratches, oxidation, dullness and haze on glossy wood finishes.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0002",
+    "product": "Feed-N-Wax – Sample Size",
+    "family": "Wood Conditioners",
+    "specs": "Sample Size",
+    "description": "Helps maintain natural beauty and depth of grain and helps prevent drying and cracking.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0004",
+    "product": "Feed-N-Wax – 139ml",
+    "family": "Wood Conditioners",
+    "specs": "139ml",
+    "description": "Helps maintain natural beauty and depth of grain and helps prevent drying and cracking.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0008",
+    "product": "Feed-N-Wax – 236ml",
+    "family": "Wood Conditioners",
+    "specs": "236ml",
+    "description": "Helps maintain natural beauty and depth of grain and helps prevent drying and cracking.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0016",
+    "product": "Feed-N-Wax – 473ml",
+    "family": "Wood Conditioners",
+    "specs": "473ml",
+    "description": "Helps maintain natural beauty and depth of grain and helps prevent drying and cracking.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0064",
+    "product": "Feed-N-Wax – 1,892ml",
+    "family": "Wood Conditioners",
+    "specs": "1,892ml",
+    "description": "Helps maintain natural beauty and depth of grain and helps prevent drying and cracking.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPOR0004",
+    "product": "Orange Oil Furniture Polish",
+    "family": "Wood Polishes",
+    "specs": "Furniture Polish",
+    "description": "Cleans and polishes wood surfaces using real citrus oils without drying the finish.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPOR0008",
+    "product": "Orange Oil Spray",
+    "family": "Wood Polishes",
+    "specs": "237ml",
+    "description": "Cleans and polishes wood surfaces using real citrus oils without drying the finish.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPORS016",
+    "product": "Orange Oil Spray",
+    "family": "Wood Polishes",
+    "specs": "473ml",
+    "description": "Cleans and polishes wood surfaces using real citrus oils without drying the finish.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPLM0008",
+    "product": "Lemon Oil Spray",
+    "family": "Wood Polishes",
+    "specs": "236ml",
+    "description": "Cleans and polishes wood surfaces using real citrus oils without drying the finish.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPLM0016",
+    "product": "Lemon Oil Spray",
+    "family": "Wood Polishes",
+    "specs": "473ml",
+    "description": "Cleans and polishes wood surfaces using real citrus oils without drying the finish.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPBBC002",
+    "product": "Butcher Block Conditioner – Sample Size",
+    "family": "Food-Safe Wood Care",
+    "specs": "Sample Size",
+    "description": "Conditioner for butcher blocks, salad bowls and wooden cutting boards; helps prevent drying and provides protection.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPBBC012",
+    "product": "Butcher Block Conditioner",
+    "family": "Food-Safe Wood Care",
+    "specs": "355ml",
+    "description": "Conditioner for butcher blocks, salad bowls and wooden cutting boards; helps prevent drying and provides protection.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPCBC012",
+    "product": "Butcher Block & Cutting Board Cleaner",
+    "family": "Food-Safe Wood Care",
+    "specs": "355ml",
+    "description": "Revitalising blend for butcher blocks, salad bowls and wooden cutting boards; safe for direct and indirect contact with food.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPBBB002",
+    "product": "Butcher Block & Cutting Board Oil – Sample Size",
+    "family": "Food-Safe Wood Care",
+    "specs": "Sample Size",
+    "description": "100% food-grade mineral oil; colourless, odourless and safe for food-contact surfaces.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPBBB012",
+    "product": "Butcher Block & Cutting Board Oil",
+    "family": "Food-Safe Wood Care",
+    "specs": "355ml",
+    "description": "100% food-grade mineral oil; colourless, odourless and safe for food-contact surfaces.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPLTC016",
+    "product": "Leather Cleaner",
+    "family": "Leather Care",
+    "specs": "473ml",
+    "description": "All-natural, environmentally friendly and biodegradable leather cleaner; pH balanced and alkaline free.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPLC0002",
+    "product": "Leather Conditioner – Sample Size",
+    "family": "Leather Care",
+    "specs": "Sample Size",
+    "description": "Deeply penetrates leather, restores sun-faded leather and resists cracking, scuffing and dry rot.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPLC0008",
+    "product": "Leather Conditioner",
+    "family": "Leather Care",
+    "specs": "236ml",
+    "description": "Deeply penetrates leather, restores sun-faded leather and resists cracking, scuffing and dry rot.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPSWAX16",
+    "product": "SunShield Outdoor Furniture Wax",
+    "family": "Outdoor Furniture Care",
+    "specs": "473ml",
+    "description": "Helps prevent drying, deterioration and cracking while maintaining natural beauty and depth of grain.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPWAX009",
+    "product": "Food Grade Wax Multi-surface",
+    "family": "Food-Safe Wood Care",
+    "specs": "255ml",
+    "description": "Food grade wax for multi-surface use.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPSP008",
+    "product": "Silver Polish",
+    "family": "Metal Polishes",
+    "specs": "236ml",
+    "description": "Quickly cleans and polishes silver, silver plating, appliances and chrome fittings without acids or harsh abrasives.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPCB0008",
+    "product": "Copper & Brass Polish",
+    "family": "Metal Polishes",
+    "specs": "236ml",
+    "description": "Cleans and polishes ornamental copper, brass and bronze without harsh chemicals or abrasives.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPCS0014",
+    "product": "Citrus-Shield Premium Paste Wax – Neutral",
+    "family": "Wood Finishes & Waxes",
+    "specs": "325ml",
+    "description": "Premium paste wax for finished and unfinished wood; helps polish, protect and enhance natural wood tone with UV protection.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPSSC016",
+    "product": "Stainless Steel Cleaner & Polish",
+    "family": "Metal / Surface Care",
+    "specs": "473ml",
+    "description": "Streak-free cleaner and polish for stainless steel surfaces and appliances; removes fingerprints, streaks, grime and grease.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  },
+  {
+    "code": "HPFW0032",
+    "product": "Wood-N-Floors Hardwood Floor Cleaner",
+    "family": "Floor Care",
+    "specs": "473ml",
+    "description": "Water-based hardwood floor cleaner for removing dirt and grime from hardwood, LVP, laminate and engineered floors.",
+    "brand": "Howard",
+    "image": "howard-placeholder.jpg"
+  }
+]
