@@ -40,7 +40,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
 .product{min-height:390px;padding:14px;border-radius:8px;background:linear-gradient(145deg,#191d1e,#101212);box-shadow:0 8px 24px rgba(0,0,0,.16)}
 .product:hover{transform:translateY(-4px);box-shadow:0 14px 32px rgba(0,0,0,.28);border-color:#656a6b}
 .product-top{min-height:27px}.badge{border-radius:3px;max-width:70%;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}.ref{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;color:#8c9293}
-.product-photo{height:auto;aspect-ratio:11/8;margin:10px 0 13px;border-radius:6px;background:#0d0f10 url('torkcraft-placeholder.jpg') center/cover no-repeat;border-color:#292e2f;box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}
+.product-photo{height:auto;aspect-ratio:11/8;margin:10px 0 13px;border-radius:6px;background:#0d0f10 url('placeholder.jpg') center/cover no-repeat;border-color:#292e2f;box-shadow:inset 0 0 0 1px rgba(255,255,255,.025)}
 .product-body{display:flex;flex-direction:column;min-height:145px}.product h3{font-size:16px;line-height:1.2;letter-spacing:.2px}.size{font-size:11px;line-height:1.45;color:#aeb3b4;margin:8px 0 12px}.size strong{color:#e4e6e6}.card-actions{margin-top:auto}.mini-btn{border-radius:4px;padding:8px 10px}.mini-btn.secondary{color:#b8bdbe}
 .no-photo{position:relative}.no-photo:after{content:"CATALOGUE IMAGE";font-size:10px;letter-spacing:1.5px;color:#666;position:absolute}
 .pagination{gap:10px}.page-btn{border-radius:5px}.page-btn:disabled{opacity:.4;cursor:not-allowed}.page-info{color:#aeb3b4;font-size:12px;font-weight:800;min-width:110px;text-align:center}
@@ -117,7 +117,7 @@ section{padding:90px 7%}.section-head{max-width:780px;margin-bottom:34px}h2{font
   <div class="catalogue-count" id="catalogueCount">Loading catalogue…</div>
   <div class="product-grid" id="products"></div>
   <div class="pagination" id="pagination"></div>
-  <div class="note">Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Where an individual product photo is not available, a Tork Craft placeholder is shown instead of using a potentially incorrect product image.</div>
+  <div class="note">Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Where an individual product photo is not available, the Tommy’s Solutions placeholder is shown instead of using a potentially incorrect product image.</div>
 </section>
 
 <section id="brands" class="brands">
@@ -184,7 +184,7 @@ function render(){
   products.innerHTML=slice.map(item=>{
     const isE=activeBrand==='energizer';
     const isH=activeBrand==='howard';
-    const img=isE ? 'energizer-placeholder.jpg' : (isH ? 'howard-placeholder.jpg' : 'torkcraft-placeholder.jpg');
+    const img=isE ? 'placeholder.jpg' : (isH ? 'placeholder.jpg' : 'placeholder.jpg');
     const specs=item.specs || 'See catalogue for specifications';
     const code=item.code || '';
     return `<article class="product">
@@ -222,15 +222,15 @@ function switchBrand(brand){
   if(brand==='energizer'){
     catalogueTitle.textContent=`${catalogues.energizer.length} catalogue references`;
     catalogueSubtitle.textContent='Search Energizer by product code, EAN, battery type, light or category.';
-    catalogueNote.textContent='Product information is based on the supplied Energizer January 2021 catalogue. Prices and stock levels are intentionally not displayed. One consistent Energizer placeholder is used instead of incorrect catalogue-page images.';
+    catalogueNote.textContent='Product information is based on the supplied Energizer January 2021 catalogue. Prices and stock levels are intentionally not displayed. One consistent Tommy’s Solutions placeholder is used instead of incorrect catalogue-page images.';
   }else if(brand==='howard'){
     catalogueTitle.textContent=`${catalogues.howard.length} catalogue references`;
     catalogueSubtitle.textContent='Search Howard by product code, product family or specification.';
-    catalogueNote.textContent='Product information is based on the supplied Howard catalogue. Prices and stock levels are intentionally not displayed. One consistent Howard placeholder is used instead of incorrect catalogue-page images.';
+    catalogueNote.textContent='Product information is based on the supplied Howard catalogue. Prices and stock levels are intentionally not displayed. One consistent Tommy’s Solutions placeholder is used instead of incorrect catalogue-page images.';
   }else{
     catalogueTitle.textContent='5,000+ catalogue references';
     catalogueSubtitle.textContent='Search Tork Craft by product code, size or product family.';
-    catalogueNote.textContent='Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Tork Craft products use the supplied lightweight placeholder where an individual image is not available.';
+    catalogueNote.textContent='Product information is based on the supplied Tork Craft 2026 catalogue. Prices and stock levels are intentionally not displayed. Products use the supplied Tommy’s Solutions placeholder where an individual image is not available.';
   }
   applyFilters();
 }
